@@ -1,0 +1,14 @@
+{
+  "name": "word-of-the-day",
+  "version": "0.0.1",
+  "description": "Word of the Day Slack integration meant to be used with cronjobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.75.0"
+  }
+}
