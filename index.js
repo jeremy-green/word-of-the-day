@@ -80,8 +80,8 @@ const formatSlackResponse = wodObj => {
     channel: slackChannel,
     text: f.bold(wodObj.word) + os.EOL + f.blockquote(wodObj.note),
     attachments: [
-      formatExamples(wodObj.examples),
-      formatDefinitions(wodObj.definitions)
+      formatDefinitions(wodObj.definitions),
+      formatExamples(wodObj.examples)
     ]
   };
 
